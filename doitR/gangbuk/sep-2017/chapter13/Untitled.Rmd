@@ -14,13 +14,13 @@ library(ggplot2)
 
 # 데이터 분석에 필요한 가장 간단한 통계지식
 
-####왜 통계를 알아야 하는가?
+#### 왜 통계를 알아야 하는가?
 
 - **간단한 오류의 사례**
 
-![그림 1](/Users/wonsik/Desktop/1.png)
-![표 1](/Users/wonsik/Desktop/2.png)
-![그림 2](/Users/wonsik/Desktop/3.png)
+![그림 1](/Users/wonsik/Project/study-group/doitR/gangbuk/sep-2017/chapter13/images/1.png)
+![표 1](/Users/wonsik/Project/study-group/doitR/gangbuk/sep-2017/chapter13/images/2.png)
+![그림 2](/Users/wonsik/Project/study-group/doitR/gangbuk/sep-2017/chapter13/images/3.png)
 
     + 생존편향 : 왜곡된 표본에서 살아남은 것만 고려하고 실패한 것은 고려하지 않는 오류
     + ex) 왠지 나는 당첨될 것 같은 로또, 연예인과 창업가들의 성공예시에만 주목 등
@@ -73,8 +73,8 @@ library(ggplot2)
     + 1종 오류 : 귀무가설이 참이지만 기각하는 경우 ( 내 의견이 틀렸는데 맞았다고 하는 것 )
     + 2종 오류 : 귀무가설이 거짓이지만 채택하는 경우 ( 내 의견이 맞았는데 틀렸다고 하는 것 )
     
-![표 2 : 가설과 오류](/Users/wonsik/Desktop/error.png)
-![그래프 : 1종 오류와 2종 오류](/Users/wonsik/Desktop/pe.png)
+![표 2 : 가설과 오류](/Users/wonsik/Project/study-group/doitR/gangbuk/sep-2017/chapter13/images/error.png)
+![그래프 : 1종 오류와 2종 오류](/Users/wonsik/Project/study-group/doitR/gangbuk/sep-2017/chapter13/images/pe.png)
 
 
 ### 13-2. t 검정 - 두 집단의 평균 비교
@@ -82,7 +82,7 @@ library(ggplot2)
 #### t 검정(t-test)
 
 - 두 집단의 평균에 통계적으로 유의한 차이가 있는지 알아볼 때 사용하는 통계 분석 기법
-![표 3](/Users/wonsik/Desktop/4.png)
+![표 3](/Users/wonsik/Project/study-group/doitR/gangbuk/sep-2017/chapter13/images/4.png)
 
 - **표본 1은 평균이 유의미한 차이를 지니지만, 표본 2는 평균이 유의미한 차이를 가지지 못한다**    
 
@@ -128,7 +128,7 @@ t.test(data = mpg_diff2, cty ~ fl, var.equal = T)
 
 ## 13-3. 상관분석 - 두 변수의 관계성 분석
 
-![그림 1](/Users/wonsik/Desktop/5.png)
+![그림 1](/Users/wonsik/Project/study-group/doitR/gangbuk/sep-2017/chapter13/images/5.png)
 
 
 #### 상관분석(Correlation Analysis)
